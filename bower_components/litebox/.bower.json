@@ -1,0 +1,51 @@
+{
+  "name": "litebox",
+  "authors": [
+    "Bledar Muca <b.muca@inera.it>"
+  ],
+  "description": "A versatile lightbox/modal window.",
+  "main": "assets/js/litebox.js",
+  "keywords": [
+    "A",
+    "versatile",
+    "auto",
+    "detecting",
+    "content",
+    "lightbox/modal",
+    "window",
+    "for",
+    "use",
+    "with",
+    "images",
+    "embedded",
+    "content",
+    "(YouTube",
+    "Vimeo",
+    "Daily",
+    "Motion",
+    "and",
+    "KickStarter)",
+    "iframes",
+    "and",
+    "inline",
+    "html."
+  ],
+  "license": "MIT",
+  "homepage": "https://github.com/idelb/litebox",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "_release": "1abbe73587",
+  "_resolution": {
+    "type": "branch",
+    "branch": "master",
+    "commit": "1abbe73587be93ffea4586110459dac315a7a8b8"
+  },
+  "_source": "https://github.com/idelb/litebox.git",
+  "_target": "*",
+  "_originalSource": "litebox"
+}

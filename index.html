@@ -3,8 +3,44 @@
     <head>
         <meta charset="utf-8">
         <title>LiteBox example</title>
+
+        <link rel="stylesheet" type="text/css" media="all" href="bower_components/normalize-css/normalize.css">
+        <link rel="stylesheet" type="text/css" media="all" href="bower_components/skeleton/css/skeleton.css">
+        <link rel="stylesheet" type="text/css" media="all" href="bower_components/litebox/assets/css/litebox.css">
+        <link rel="stylesheet" type="text/css" media="all" href="assets/css/main.css">
     </head>
     <body>
-        Hello World
+        <div class="container">
+            <div class="navbar">
+                <div class="container">
+                    <ul class="navbar-list">
+                        <li><a class="navbar-link">LiteBox</a></li>
+                        <li><a href="#single-image" class="navbar-link">Single image</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="text-center">
+                <h4>Single image</h4>
+                <div class="images">
+                    <a href="assets/images/1.jpg" data-litebox data-litebox-text="Titolo 1"><img src="assets/images/1.jpg"></a>
+                    <a href="assets/images/2.jpg" data-litebox data-litebox-text="Titolo 2"><img src="assets/images/2.jpg"></a>
+                    <a href="assets/images/3.jpg" data-litebox data-litebox-text="Titolo 3"><img src="assets/images/3.jpg"></a>
+                </div>
+            </div>
+            <div class="text-center">
+                <h4>Gallery images</h4>
+                <div class="images">
+                    <a href="assets/images/1.jpg" data-litebox data-litebox-group="group-1" data-litebox-text="Titolo 1"><img src="assets/images/1.jpg"></a>
+                    <a href="assets/images/2.jpg" data-litebox data-litebox-group="group-1" data-litebox-text="Titolo 2"><img src="assets/images/2.jpg"></a>
+                    <a href="assets/images/3.jpg" data-litebox data-litebox-group="group-1" data-litebox-text="Titolo 3"><img src="assets/images/3.jpg"></a>
+                </div>
+            </div>
+        </div>
+
+        <script src="bower_components/jquery/dist/jquery.min.js"></script>
+        <script src="bower_components/litebox/assets/js/images-loaded.min.js"></script>
+        <script src="bower_components/litebox/assets/js/litebox.js"></script>
+
+        <script src="assets/js/main.js"></script>
     </body>
 </html>

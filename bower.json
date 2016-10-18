@@ -18,6 +18,9 @@
     "tests"
   ],
   "dependencies": {
-    "litebox": "*"
+    "litebox": "*",
+    "jquery": "^2.*",
+    "skeleton": "^2.0.4",
+    "normalize-css": "^5.0.0"
   }
 }
