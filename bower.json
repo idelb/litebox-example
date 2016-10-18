@@ -1,0 +1,23 @@
+{
+  "name": "litebox-example",
+  "homepage": "https://github.com/idelb/litebox-example",
+  "authors": [
+    "Bledar Muca <idelb82@gmail.com>"
+  ],
+  "description": "LiteBox example site",
+  "main": "",
+  "keywords": [
+    "LiteBox"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "litebox": "*"
+  }
+}
